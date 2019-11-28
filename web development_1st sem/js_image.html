@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> My Favourite pictures</h1>
+	<ul>
+	<li id="para1">Image 1</li>
+	<li id="para2" onclick="fun2()">Image 2</li>
+	<li id="para3" onclick="fun3()">Image 3</li>
+	<li id="para4" onclick="fun4()">Image 4</li>
+	<li id="para5" onclick="fun5()">Image 5</li>
+
+	<img id="img1" src="img.jpg" width="40px" height="40px">
+	
+	</ul>
+	<script type="text/javascript">
+
+		document.getElementById("para1").onclick=function() {fun1()};
+		
+		function fun1(argument) {
+
+			// body...
+			document.getElementById('img1').src="img.jpg"
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> My Favourite pictures</h1>
+	<ul>
+	<!-- parallel method for list  
+	<li id="para1"> <a href="#"> Image 1 </a></li>
+	<li id="para2"> <a href="#"> Image 2 </a> </li>
+	<li id="para3"> <a href="#"> Image 3</a> </li>
+	<li id="para4"> <a href="#">Image 4</a> </li>
+	<li id="para5"> <a href="#">Image 5</a> </li>
+	</ul>
+	
+									OR
+
+	<input type="radio" name="image" value="Image1" id="para1"> Image1<br>
+	<input type="radio" name="image" value="Image2" id="para2"> Image2<br>
+	<input type="radio" name="image" value="Image3" id="para3"> Image3<br> 
+	<input type="radio" name="image" value="Image4" id="para4"> Image4<br>
+	<input type="radio" name="image" value="Image5" id="para5"> Image5<br>
+
+
+	-->
+	
+
+	<script type="text/javascript" >
+
+		document.getElementById("para1").onclick=function() {fun1()};
+		
+		function fun1(argument) {
+
+			// body...
+			document.getElementById('image').src="img.jfif"
+			document.getElementById('para').innerHTML="<marquee>Marble</marquee>"
+
+		}
+
+		document.getElementById("para2").onclick=function() {fun2()};
+		
+		function fun2(argument) {
+
+			// body...
+			document.getElementById('image').src="img2.jfif"
+			document.getElementById('para').innerHTML="<marquee>Mountain Range</marquee>"
+
+		}
+
+		document.getElementById("para3").onclick=function() {fun3()};
+		
+		function fun3(argument) {
+
+			// body...
+			document.getElementById('image').src="img3.jfif"
+			document.getElementById('para').innerHTML="<marquee>Butterfly</marquee>"
+
+		}
+
+		document.getElementById("para4").onclick=function() {fun4()};
+		
+		function fun4(argument) {
+
+			// body...
+			document.getElementById('image').src="img4.jfif"
+			document.getElementById('para').innerHTML="<marquee>Lake Mountain</marquee>"
+
+		}
+
+		document.getElementById("para5").onclick=function() {fun5()};
+		
+		function fun5(argument) {
+
+			// body...
+			document.getElementById('image').src="img5.jfif"
+			document.getElementById('para').innerHTML="<marquee>Sea Sunset</marquee>"
+
+		}
+
+
+	</script>
+
+</body>
+</html>

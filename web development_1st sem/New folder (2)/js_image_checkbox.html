@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+	 <h1> My Favourite Pictures</h1>
+	
+	
+	<input type="checkbox" id="para1"  onclick="Function1()">Marble
+	<input type="checkbox" id="para2"  onclick="Function2()">Mountain Range
+	<input type="checkbox" id="para3"  onclick="Function3()">ButterFly
+	<input type="checkbox" id="para4"  onclick="Function4()">Lake Mountain
+	<input type="checkbox" id="para5"  onclick="Function5()">Sea Sunset
+
+	<p id="text1" style="display:none"><img src="img.jfif"style="float: left"> </p>
+	<p id="text2" style="display:none"><img src="img2.jfif" style="float: left"></p>
+	<p id="text3" style="display:none"><img src="img3.jfif"style="float: left"></p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p id="text4" style="display:none"><img src="img4.jfif"style="float: left"></p>
+	<p id="text5" style="display:none"><img src="img5.jfif"style="float: left"></p>
+
+	<script>
+
+ function Function1() {
+    var checkBox = document.getElementById("para1");
+    var text = document.getElementById("text1");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+function Function2() {
+    var checkBox = document.getElementById("para2");
+    var text = document.getElementById("text2");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+
+
+function Function3() {
+    var checkBox = document.getElementById("para3");
+    var text = document.getElementById("text3");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+
+
+function Function4() {
+    var checkBox = document.getElementById("para4");
+    var text = document.getElementById("text4");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+
+
+function Function5() {
+    var checkBox = document.getElementById("para5");
+    var text = document.getElementById("text5");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+
+</script>
+
+</body>
+</html>

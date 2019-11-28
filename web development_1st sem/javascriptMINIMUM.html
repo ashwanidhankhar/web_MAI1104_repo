@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script id="script">
+		var min
+		var num
+		num = prompt("enter any number")
+		min = num
+		while (num != "")
+		{
+			if (parseFloat(num) < min)
+			{
+				min = num
+			}
+			num = prompt("enter any number")
+		}
+		document.write(  " the minimum number is "  + min)
+document.body.style.backgroundColor = "yellow";
+document.body.style.fontSize="60px";
+document.body.style.color="green";
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+h1{
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+}
+p{
+	color: white;
+}
+
+
+form {										 
+	margin: 0 auto; 
+	width: 600px; 
+	margin-left: 70px; 
+    font-weight: bold ; 
+    float: left; 
+    clear: left; 
+    width: 100px; 
+    text-align: left; 
+    margin-right: 10px; 
+    font-family:sans-serif,bold, Arial, Helvetica; 
+    font-size:14px; 
+    box-sizing: border-box; 
+    width: 100%;  
+    float: left; 
+    align-content: center; 
+    align-items: center; 
+}
+
+
+
+
+
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: transparent url(coder.jpeg) no-repeat top left; 
+	margin: 0; 
+	padding: 0;
+	}
+
+
+
+
+	

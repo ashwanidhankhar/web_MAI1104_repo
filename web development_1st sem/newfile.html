@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div>
+	<ul>
+		<li>Bsdu</li>
+		<li>Ashwani</li>
+	</ul>
+</div>
+
+	<p>Another paragraph</p>
+
+	<div>
+	<ul>
+		<li>yo yo</li>
+		<li>hero</li>
+	</ul>
+	</div>
+
+	<div id="para"> 
+		<input type="button" onclick="yolo()" value="yoyohoney"> </div>
+	<p id="yoho">his</p>
+
+	<div id="date">
+		<input type="button" onmouseover="dat()" value="date">
+	</div>
+
+	<input type="button" onclick="sum()" value="click here">
+
+	<input type="button" onmouseover="funy()" onclick="funn()" onmouseout="funnn()" value="test">
+
+	
+	<script type="text/javascript">
+		var a= document.getElementsByTagName('div')
+		a[0].style.background="blue";
+		a[0].style.border="7px solid black"
+		a[1].style.background="green";
+		a[1].style.border="4px dashed yellow"
+		a[0].style.width="30%"
+
+		function sum() {
+			// body...
+		
+		var b , c , d
+		b=prompt("enter your number")
+		c=prompt("enter your second number")
+		d=parseInt(b)+parseInt(c)
+		document.write("the sum of two numbers is :" + d)
+}
+
+	function funy() {
+		// body...
+
+		document.getElementById("yoho").style.background="blue";
+
+	}
+
+	function funn() {
+
+		// body...
+	document.getElementById("yoho").style.background="yellow";
+	}
+
+	function funnn(){
+
+		// body...
+		document.getElementById("yoho").style.background="green";
+	}
+
+	function yolo() {
+		// body...
+	
+	var input= document.createElement("apara");
+	var txt= document.createTextNode("hello");
+	input.appendChild(txt);
+	para=document.getElementById("para");
+	para.appendChild(input);
+	}
+
+	function dat() {
+		// body...
+	
+	document.getElementById("date").innerHTML=Date();
+} 
+
+function func() {
+	// body...
+
+	document.getElementById("hard").style.background="orange"
+}
+	</script>
+<p id="hard">asdhaiosdj</p>
+<input type="button" name="asdasd" onclick="func()" value="lulss" >
+
+</body>
+</html>

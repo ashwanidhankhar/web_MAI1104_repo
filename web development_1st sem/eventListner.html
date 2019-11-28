@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p id="event">
+	
+	hello
+</p>
+
+<script>
+
+
+	document.addEventListener("mouseover", myFunction);
+	document.addEventListener("mouseout", function myFuntion2() {
+		// body...
+		document.getElementById("event").innerHTML="Mouse Out!<br>"
+		document.getElementById("event").style.background="green"
+	});
+
+
+
+	 function myFunction() { 
+		// body...
+		document.getElementById("event").innerHTML ="Moused over!<br>"
+		document.getElementById("event").style.background="yellow"
+	}
+	document.addEventListener("dblclick",function myFunction3() {
+		document.getElementById("event").innerHTML=("DOUBLE CLICKED!")
+		document.getElementById("event").style.background="orange"
+		// body...
+	})
+
+</script>
+</body>
+</html>

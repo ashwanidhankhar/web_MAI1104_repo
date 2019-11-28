@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="divOne">
+	<input type="button" onclick="function1()" value="click here  ">
+</div>
+
+<script>
+	 function function1() {
+		// body...
+		var para =document.createElement("p");
+		var txt = document.createTextNode("hello");
+		para.appendChild(txt);
+		divOne=document.getElementById("divOne");
+		divOne.appendChild(para);
+	}
+</script>
+</body>
+</html>
